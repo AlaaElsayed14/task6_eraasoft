@@ -179,7 +179,7 @@ header nav a:hover{
 
 @media (max-width:991px){
     .container{
-        width: 90%;
+        width: 80%;
     }
     header .logo{
         margin-right: 1.3rem;
@@ -326,7 +326,16 @@ main .row .main__content{
 }
    
 }
-
+@media (max-width:1300px) {
+    .container{
+        width: 80%;
+    }
+   
+    .main__img{
+        top: 0;
+        right: 10%;
+    }
+}
 @media(max-width:992px){
     main{
         padding: 6rem 0;
